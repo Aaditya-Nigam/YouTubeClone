@@ -1,0 +1,51 @@
+.sidebar_container{
+    padding: 1rem 1rem;
+    width: fit-content;
+}
+
+.sidebar_container .upper{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 0 0 1rem 0;
+}
+
+.sidebar_container .upper_link_container{
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.sidebar_container .upper_link_container img{
+    height: 1.4rem;
+    cursor: pointer;
+}
+
+.sidebar_container .lower{
+    padding: 1rem 0 1rem 0;
+}
+
+.sidebar_container .lower h3{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.sidebar_container .lower_link_container{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+.sidebar_container .lower_link_container img{
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.small_sidebar p{
+    display: none;
+}
+
+.small_sidebar h3{
+    display: none;
+}
+
+.active img{
+    border-bottom: 2px solid red;
+}

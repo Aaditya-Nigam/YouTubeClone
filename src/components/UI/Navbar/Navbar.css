@@ -1,0 +1,42 @@
+.navbar_container{
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.349);
+}
+
+.navbar_container .left img:first-child{
+    height: 1rem;
+    cursor: pointer;
+}
+
+.navbar_container .left .logo_container img  {
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar_container .middle .search_container{
+    border: 1px solid grey;
+    border-radius: 2rem;
+    padding: 0.4rem 0.6rem;
+}
+
+.navbar_container .middle .search_container input{
+    outline: none;
+    border: none;
+    width: 600px;
+}
+
+.navbar_container .middle .search_container img{
+    height: 1rem;
+    cursor: pointer;
+}
+
+.navbar_container .right img{
+    height: 2rem;
+    cursor: pointer;
+}
+
+.navbar_container .right img:last-child{
+    border-radius: 50%;
+    margin-right: 2rem;
+}

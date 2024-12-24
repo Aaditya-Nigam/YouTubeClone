@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.g4{
+    gap:4px;
+}
+
+.g8{
+    gap: 8px;
+}
+
+.g16{
+    gap: 16px;
+}
+
+.g24{
+    gap: 24px;
+}
+
+.g32{
+    gap: 32px;
+}

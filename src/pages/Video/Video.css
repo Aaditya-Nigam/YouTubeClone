@@ -1,0 +1,118 @@
+.video_container{
+    padding: 1rem;
+    grid-template-columns: 7fr 3fr;
+    gap: 1rem;
+}
+
+.vid_container iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.video_container .title h2{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.channel_description img{
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.channel_description h3{
+    font-size: 1rem;
+}
+
+.channel_description p{
+    font-size: 0.8rem;
+}
+
+.channel_description button{
+    padding: 0.6rem 1.8rem;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.video_description{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.video_description span{
+    color: rgba(0, 0, 0, 0.604);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.comments_section{
+    /* border: 2px solid red; */
+    padding: 0 1rem;
+}
+
+.comments_section h2{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+.comment_card{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.052);
+}
+
+.comment_card img{
+    height: 1.2rem;
+}
+
+.comment_card .comment_img{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.comment_card h4{
+    font-size: 0.9rem;
+    display: inline;
+}
+
+.comment_card p{
+    font-size: 0.9rem;
+}
+
+.comment_card span{
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.584);
+}
+
+.recommended_card .img_container{
+    height: 130px;
+}
+
+.recommended_card .img_container img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.recommended_card h3{
+    font-size: 0.9rem;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+
+.recommended_card h4{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.recommended_card p{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.667);
+}
