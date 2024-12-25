@@ -22,9 +22,9 @@ export const Navbar=({sidebar,setSidebar})=>{
         <nav>
             <div className="navbar_container flex align-center justify-space-between">
                 <div className="left flex align-center g16">
-                    <img src={hamburger} alt="hamburger" onClick={handleHamburgerClick}/>
+                    <img src={hamburger} alt="hamburger" onClick={handleHamburgerClick} className="hamburger"/>
                     <NavLink to="/" className="logo_container">
-                        <img src={logo} alt="VidVideo" />
+                        <img src={logo} alt="VidVideo" className="vidVideo"/>
                     </NavLink>
                 </div>
                 <div className="middle">

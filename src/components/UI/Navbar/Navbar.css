@@ -9,7 +9,7 @@
 }
 
 .navbar_container .left .logo_container img  {
-    height: 2rem;
+    height: 2rem;    
     cursor: pointer;
     border: none;
 }
@@ -23,7 +23,7 @@
 .navbar_container .middle .search_container input{
     outline: none;
     border: none;
-    width: 600px;
+    width: 400px;
 }
 
 .navbar_container .middle .search_container img{
@@ -39,4 +39,32 @@
 .navbar_container .right img:last-child{
     border-radius: 50%;
     margin-right: 2rem;
+}
+
+@media (max-width: 900px) {
+    .navbar_container .right img{
+        display: none;
+    }
+
+    .navbar_container .right img:last-child{
+        display: block;
+    }
+
+    .navbar_container .middle .search_container input{
+        width: 300px;
+    }
+
+    .navbar_container .left .logo_container img  {
+        height: 1.5rem;
+    }
+
+    .navbar_container .left .hamburger{
+        display: none;
+    }
+}
+
+@media (max-width: 560px){
+    .navbar_container .middle {
+        display: none;
+    }
 }
